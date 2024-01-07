@@ -1,0 +1,204 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 115rem;
+  margin: 0 auto;
+}
+.page-content {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.page-content .header {
+  box-sizing: border-box;
+  padding: 3rem 6rem 3rem 6rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.page-content .header .main-content {
+  width: calc(100% - 8rem);
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.page-content .header .main-content .main-content-text {
+  margin: 2rem 12rem 2rem 0rem;
+  height: calc(100% - 4rem);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.page-content .header .main-content .main-content-text .my-name {
+  margin-bottom: 3rem;
+  max-width: 45rem;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #21243d;
+  font-family: Heebo, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.page-content .header .main-content .main-content-text .main-content-text {
+  max-width: 50rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #21243d;
+  font-family: Heebo, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.page-content .header .main-content .main-content-photo {
+  width: 25rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.page-content .header .main-content .main-content-photo .main-content-ellipse-first {
+  width: 25rem;
+  height: 25rem;
+  position: absolute;
+  left: 0;
+  top: 2rem;
+  background-color: #edf7fa;
+  border-radius: 12rem;
+}
+.page-content .header .main-content .main-content-photo .main-content-ellipse-second {
+  width: 25rem;
+  height: 25rem;
+  position: absolute;
+  left: 1rem;
+  top: 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/muzhik.png');
+  border-radius: 12rem;
+}
+
+.page-content .body-title-text {
+  margin-left: 15rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.7;
+  color: #21243d;
+  font-family: Heebo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.page-content .body-content {
+  box-sizing: border-box;
+  padding: 2rem 14rem 8rem 14rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+
+
+.page-content .body-content .lab-content {
+  margin: 0rem 4rem 2rem 0rem;
+  width: calc(100% - 4rem);
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.page-content .body-content .lab-content .lab-content-img {
+  margin-right: 2rem;
+  width: 25rem;
+  height: 18rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1rem;
+  flex-shrink: 0;
+  border: 2px solid black
+}
+.page-content .body-content .lab-content .lab-content-text {
+  margin-bottom: 1rem;
+  width: 55rem;
+  flex-shrink: 0;
+}
+.page-content .body-content .lab-content .lab-content-text .lab-content-title {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.4675;
+  color: #21243d;
+  font-family: Heebo, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.page-content .body-content .lab-content .lab-content-text .lab-content-info {
+  margin: 0rem 35rem 1rem 0rem;
+  width: calc(100% - 35rem);
+  height: 6rem;
+  display: flex;
+  align-items: center;
+}
+.page-content .body-content .lab-content .lab-content-text .lab-content-info .lab-content-year {
+  margin-right: 3rem;
+  width: 6rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.page-content .body-content .lab-content .lab-content-text .lab-content-info .lab-content-year .lab-content-year-back {
+  width: 6rem;
+  height: 2rem;
+  position: absolute;
+  left: 0;
+  top: 1.8rem;
+  background-color: #142850;
+  border-radius: 1.6rem;
+}
+.page-content .body-content .lab-content .lab-content-text .lab-content-info .lab-content-year .lab-content-year-text {
+  width: 4.2rem;
+  height: 6rem;
+  position: absolute;
+  left: 1rem;
+  top: 0;
+  font-size: 1.8rem;
+  font-weight: 900;
+  line-height: 3.3333333333;
+  color: #ffffff;
+  font-family: Heebo, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.page-content .body-content .lab-content .lab-content-text .lab-content-info .lab-content-link {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #8594a3;
+  font-family: Heebo, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.page-content .body-content .lab-content .lab-content-text .lab-content-description {
+  max-width: 55rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4675;
+  color: #21243d;
+  font-family: Heebo, 'Source Sans Pro';
+}
